@@ -1,21 +1,25 @@
 {
-  "name": "parcel-template",
+  "name": "api-project-aaron-sun-1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "clean": "rm dist/bundle.js",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build-prod": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staten-island-tech/api-project-aaron-sun-1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.9"
+  "bugs": {
+    "url": "https://github.com/staten-island-tech/api-project-aaron-sun-1/issues"
   },
-  "browserslist": [
-    "since 2017-06"
-  ]
+  "homepage": "https://github.com/staten-island-tech/api-project-aaron-sun-1#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
