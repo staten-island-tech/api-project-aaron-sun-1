@@ -1,7 +1,6 @@
 {
   "name": "api-project-aaron-sun-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "clean": "rm dist/bundle.js",
@@ -21,5 +20,9 @@
   "homepage": "https://github.com/staten-island-tech/api-project-aaron-sun-1#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
-  }
+  },
+  "dependencies": {
+    "sass": "^1.32.12"
+  },
+  "description": ""
 }
